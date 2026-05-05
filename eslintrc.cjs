@@ -27,7 +27,7 @@ module.exports = {
         paths: [
           {
             name: '@mui/material',
-            message: 'Please use `@radix-ui` instead.',
+            message: 'Please use a UI component from `@/ui`, or create one using `@radix-ui`.',
           },
           {
             name: 'moment',
@@ -35,11 +35,11 @@ module.exports = {
           },
           {
             name: '@emotion/react',
-            message: 'Please either write your styles as CSS modules, use Tailwind or use Radix UI components.'
+            message: 'Please either use Tailwind or use Radix UI components.'
           },
           {
             name: '@emotion/styles',
-            message: 'Please either write your styles as CSS modules, use Tailwind or use Radix UI components.'
+            message: 'Please either use Tailwind or use Radix UI components.'
           },
         ],
         patterns: [
